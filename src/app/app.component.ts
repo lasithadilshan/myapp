@@ -5,10 +5,11 @@ import { StorageService } from './storage.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
-  providers: [
-    StorageService,
-  ]
 })
 export class AppComponent {
-  title = 'Hello World';
+  title = 'This is the way we data binding in Angular';
+
+  handleEvent() {
+    console.log('Button Clicked', this.title)
+  }
 }
