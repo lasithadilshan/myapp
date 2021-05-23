@@ -7,7 +7,7 @@ import { StorageService } from './storage.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'This is the way we data binding in Angular';
+  title = 'This is the way';
 
   handleEvent() {
     console.log('Button Clicked', this.title)
