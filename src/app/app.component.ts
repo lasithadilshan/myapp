@@ -12,6 +12,9 @@ export class AppComponent {
     a: 'hello',
     b: 'world'
   }
+
+  newDate = new Date();
+
   handleEvent() {
     console.log('Button Clicked', this.title)
   }
