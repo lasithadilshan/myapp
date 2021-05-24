@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StorageService } from './storage.service';
 import { FormsModule } from '@angular/forms';
 import { TruncatePipe } from './truncate.pipe';
 
@@ -18,7 +17,7 @@ import { TruncatePipe } from './truncate.pipe';
     FormsModule
   ],
   providers: [
-    StorageService
+
   ],
   bootstrap: [AppComponent]
 })
