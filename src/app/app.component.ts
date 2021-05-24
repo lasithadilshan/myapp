@@ -7,7 +7,7 @@ import { StorageService } from './storage.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'This is the way';
+  title = 'Hello World How are you doing?';
   jsonValue = {
     a: 'hello',
     b: 'world'
