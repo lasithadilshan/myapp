@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StorageService } from './storage.service';
 import { FormsModule } from '@angular/forms';
+import { TruncatePipe } from './truncate.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,
