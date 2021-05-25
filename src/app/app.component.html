@@ -6,13 +6,13 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<h1>{{title | truncate}}</h1>
+<!-- <h1>{{title | truncate}}</h1>
 <h1>{{jsonValue | json}}</h1>
 <h1>{{newDate | date:'M:d:H'}}</h1>
 
 
 <button (click)="handleEvent()"> Click Me</button>
-<input placeholder="hello" [ngModel]="title" />
+<input placeholder="hello" [ngModel]="title" /> -->
 
-<app-user></app-user>
+<app-user [user] ="userObject"></app-user>
 <!-- <router-outlet></router-outlet> -->

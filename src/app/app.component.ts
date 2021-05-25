@@ -7,13 +7,13 @@ import { HttpService } from './http.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Hello World How are you doing?';
-  jsonValue = {
-    a: 'hello',
-    b: 'world'
+
+  userObject = {
+    name: 'John',
+    age: '32',
+    id: 0
   }
 
-  newDate = new Date();
 
   constructor(private httpService: HttpService) {}
 
@@ -21,7 +21,7 @@ export class AppComponent {
   handleEvent() {
     this.httpService.getRequest('https://jsonplaceholder.typicode.com/todos/1')
     .subscribe((response) => {
-      this.jsonValue = response;
+      console.log('hello')
     });
   }
 }
